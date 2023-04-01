@@ -14,7 +14,7 @@ comp = random.randint(0,2)
 s=0
 c=0
 for i in range(3):
- user =int(input(" 0 for Snake, 1 for Water, 2 for Gun\n"))
+ user =int(input(" 0 for Rock, 1 for Paper, 2 for Scissors\n"))
  score = check(comp,user)
  print("You:",user)
  print("Computer:",comp)
